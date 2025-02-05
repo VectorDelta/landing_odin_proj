@@ -1,3 +1,3 @@
 # Odin's Landing Page (Project)
 
-This's a tricky
+Skeleton completed, i'll add UX later on when learned

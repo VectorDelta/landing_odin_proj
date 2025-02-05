@@ -56,30 +56,37 @@ body {
 
 .logo {
     margin-right: auto;
+    font-size: 30px;
 }
 
 .hero-block{
     display: flex;
-    border: 2px solid khaki;
+    /* border: 2px solid khaki; */
     margin: 2em;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .hero-content{
     display: flex;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     flex-basis: 200px;
     flex: 1;
     gap: 2em;
     align-self: center;
-    min-width: 600px;
-    max-width: 40vw;
+    min-width: 60em;
+    max-width: 50vw;
+
 
 }
 
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
 img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
 }
 
 
@@ -95,14 +102,14 @@ img{
     flex-direction: column;
     display: flex;
     gap: 10px;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     justify-content: space-between;
 }
-
+/* 
 .hero-menu > * {
     border: 3px solid green;
 }
-
+ */
 
 .login {
     background-color: blue;
@@ -131,6 +138,7 @@ img{
 
 
 .info-header{
+    margin:20px auto;
     display: flex;
     width: 100%;
     /* border: 2px solid wheat; */
