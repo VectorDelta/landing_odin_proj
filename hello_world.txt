@@ -1,0 +1,2 @@
+Hey everyone's this simple text is a small step towards learning Odin Project's 
+knowledge, isn't that... simple? But remember, it's a big leap to get there.
